@@ -17,3 +17,9 @@ variable "application_server_port" {
   type        = number
   default     = 8000
 }
+
+
+variable "network_name" {
+  type = string
+}
+
