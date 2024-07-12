@@ -12,7 +12,3 @@ module "application" {
   source = "./modules/application"
   network_name = module.network.network_name
 }
-
-output "network_name" {
-  value = module.network.network_name
-}
